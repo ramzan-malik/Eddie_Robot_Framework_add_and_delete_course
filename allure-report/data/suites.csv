@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Oct 22 23:44:48 PKT 2023","Sun Oct 22 23:44:52 PKT 2023","4088","","Test Add And Delete Course","","","","Go to Website and Perform Login in Chrome Browser and Verify the Link",""
+"passed","Sun Oct 22 21:12:52 PKT 2023","Sun Oct 22 21:13:37 PKT 2023","45342","","Test Add And Delete Course","","","","Adding A Course",""
+"failed","Sun Oct 22 23:44:57 PKT 2023","Sun Oct 22 23:45:06 PKT 2023","8359","","Test Add And Delete Course","","","","Verify Course Batch List -> course_batch_list",""
+"passed","Sun Oct 22 23:45:06 PKT 2023","Sun Oct 22 23:45:06 PKT 2023","28","","Test Add And Delete Course","","","","Perform Delete on all Added courses",""
+"failed","Sun Oct 22 23:44:52 PKT 2023","Sun Oct 22 23:44:57 PKT 2023","5639","","Test Add And Delete Course","","","","Adding A Course -> add_course_batch",""
