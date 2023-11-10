@@ -93,7 +93,7 @@ Select Course Holidays
     Click Element                           //span[text()='Select Holiday Group']
 	Input Text                              ${search}                                      Pakistan
 	Click Element                           //li[contains(.,'Pakistan Holidays')]
-	Sleep                                   2
+	Sleep                                   4
 
 
 Select Course Resources
@@ -101,7 +101,7 @@ Select Course Resources
     Click Element                           //span[text()='Select Resources']
 	Input Text                              ${search}                                      Student Resource
 	Click Element                           //li[contains(.,'Student Resource')]
-	Sleep                                   2
+	Sleep                                   3
 
 
 Select Course Teacher Resources
