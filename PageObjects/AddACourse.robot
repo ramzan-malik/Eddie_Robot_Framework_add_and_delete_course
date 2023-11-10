@@ -97,17 +97,17 @@ Select Course Holidays
 
 
 Select Course Resources
-	Wait Until Element Is Visible           //span[text()='Select Resources']
+	Wait Until Element Is Visible           (//span[text()='Select Resources'])[1]
     Sleep                                   2
-    Click Element                           //span[text()='Select Resources']
+    Click Element                           (//span[text()='Select Resources'])[1]
 	Input Text                              ${search}                                      Student Resource
 	Click Element                           //li[contains(.,'Student Resource')]
 	Sleep                                   3
 
 
 Select Course Teacher Resources
-	Wait Until Element Is Visible           //span[text()='Select Resources']
-    Click Element                           //span[text()='Select Resources']
+	Wait Until Element Is Visible           (//span[text()='Select Resources'])[1]
+    Click Element                           (//span[text()='Select Resources'])[1]
 	Input Text                              ${search}                                      Teacher Resource
 	Click Element                           //li[contains(.,'Teacher Resource')]
 	Sleep                                   2
