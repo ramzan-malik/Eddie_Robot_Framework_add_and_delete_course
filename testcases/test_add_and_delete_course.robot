@@ -35,6 +35,7 @@ Go to Website and Perform Login in Chrome Browser and Verify the Link
 
 Adding A Course -> add_course_batch
 
+    Sleep                                           3
 	AddACourse.Enter Course Name
 	AddACourse.Enter Course Grades
 	AddACourse.Select Course Subject
