@@ -35,7 +35,7 @@ Go to Website and Perform Login in Chrome Browser and Verify the Link
 
 Adding A Course -> add_course_batch
 
-    Sleep                                           3
+    Sleep                                           2
 	AddACourse.Enter Course Name
 	AddACourse.Enter Course Grades
 	AddACourse.Select Course Subject
@@ -55,20 +55,24 @@ Adding A Course -> add_course_batch
 	AddACourse.Course Maximum Paid
 	AddACourse.Course Invoice Date
 	Execute JavaScript                                  window.scrollTo(0, document.body.scrollHeight)
-	Sleep                                               3
+	Sleep                                               2
 	AddACourse.Select 1st Frame
 	Sleep                                               2
 	AddACourse.Select 2nd Frame
     Sleep                                               2
     AddACourse.Click Submit Button
+    Sleep                                               4
+    Page Should Contain                                 Success
 
 
 Verify Course Batch List -> course_batch_list
 
+    Sleep    3
 	Verify Link and Success Block Element of the page             https://app-qa.nykey.org/course_batches              Course Batch List
 	Sleep    3
 
 Perform Delete on all Added courses
+	Sleep      3
 	Delete All Courses
 
 

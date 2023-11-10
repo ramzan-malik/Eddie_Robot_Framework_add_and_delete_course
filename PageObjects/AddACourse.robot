@@ -59,7 +59,7 @@ Select Course TimeZone
 
 Course Start Date
 	Wait Until Element Is Visible           ${startdate}
-	Input Text                              ${startdate}                                  10282023
+	Input Text                              ${startdate}                                  11282023
 
 Course Start Time
 	Wait Until Element Is Visible           ${starttime}
@@ -120,7 +120,7 @@ Course Maximum Paid
 
 Course Invoice Date
 	Wait Until Element Is Visible           ${invoicedate}
-	Input Text                              ${invoicedate}                                  10282023
+	Input Text                              ${invoicedate}                                  11282023
 	Sleep                                   2
 
 
