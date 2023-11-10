@@ -98,6 +98,7 @@ Select Course Holidays
 
 Select Course Resources
 	Wait Until Element Is Visible           //span[text()='Select Resources']
+    Sleep                                   2
     Click Element                           //span[text()='Select Resources']
 	Input Text                              ${search}                                      Student Resource
 	Click Element                           //li[contains(.,'Student Resource')]
